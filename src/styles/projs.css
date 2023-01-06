@@ -1,14 +1,84 @@
 .projs {
-    width: 40%;
+    width: 80%;
     margin: auto;
-    text-align: left;
+    text-align: center;
+
 }
 
-.projs .contain {
+.proj-container {
+
+    display: -webkit-box;
+    width: 100%;
+    overflow: scroll;
+
+    margin-bottom: 100px;
+}
+
+/* width */
+.proj-container::-webkit-scrollbar {
+    height: 5px;
+}
+
+.proj-container::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0);
+}
+
+.proj-container::-webkit-scrollbar-thumb {
+    height: 10px;
+    background-color: #d5ac68;
+}
+
+.proj-container::-webkit-scrollbar-thumb:hover {
+    background-color: #f1db9d;
+}
+
+.proj-container::-webkit-scrollbar:vertical {
+    display: none;
+}
+
+.projs * {
+    box-sizing: border-box;
+}
+
+.projs .proj-card {
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    border-radius: 10px 0 10px 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    width: 340px;
+    height: 200px;
     display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
 }
 
-.projs .contain img {
-    width: 50px;
-    margin: auto;
+.props>div {}
+
+.projs .overlay {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 178, 35, 0.907);
+    padding: 20px;
+    border-radius: 10px 0 10px 0;
+    box-sizing: border-box;
+}
+
+
+
+.projs h1 {
+    margin-bottom: 40px;
+}
+
+.projs p {
+    margin-bottom: 20px;
+}
+
+
+.projs a {
+    text-decoration: none;
+    color: white;
 }

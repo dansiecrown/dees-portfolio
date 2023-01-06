@@ -1,10 +1,10 @@
-.container{
+.container {
     padding-top: 100px;
     background: white;
     color: black;
 }
 
-hr{
+hr {
     width: 90%;
     margin: auto;
     margin-bottom: 100px;
@@ -12,23 +12,24 @@ hr{
 
 }
 
-h3{
+h3 {
     font-size: 20px;
     font-weight: 200;
     text-align: center;
     margin-bottom: 50px;
+    padding: 0 50px;
 }
 
-.card-container{
+.card-container {
 
     width: 80%;
-    margin:auto;
+    margin: auto;
     text-align: center;
     box-sizing: border-box;
 }
 
-.card{
-    display: inline-table; 
+.card {
+    display: inline-table;
     padding: 3em 2em;
     width: 15%;
     text-align: center;
@@ -36,19 +37,19 @@ h3{
     background-color: #F3F3F3;
     box-sizing: border-box;
     margin: 20px;
-   
+
 }
 
-.card:hover{
+.card:hover {
     background-color: rgb(17, 17, 17);
     color: white;
 }
 
-.card img{
+.card img {
     width: 60%;
 }
 
-h1{
+h1 {
     font-weight: 400;
     font-size: 2em;
     margin: 0;
@@ -56,8 +57,8 @@ h1{
     padding: 0;
 }
 
-p{
-    font-weight:200;
+p {
+    font-weight: 200;
     font-size: 0.8em;
     margin-bottom: 0;
     padding-bottom: 0;
