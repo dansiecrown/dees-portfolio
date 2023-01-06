@@ -3,8 +3,8 @@ export default [
     {
         id: "1nxZqF6iXxL89w5omr96H8cvy7ZFaVBRT",
         image: "https://drive.google.com/uc?export=view&id=1nxZqF6iXxL89w5omr96H8cvy7ZFaVBRT",
-        title: "Calculator",
-        description: "Calculator is a web app that allows users to perform basic arithmetic operations.",
+        title: "Dee-Calc",
+        description: "Dee-Calc is a web app that allows users to perform basic arithmetic operations.",
         link: "https://dansiecrown.github.io/js-calc/",
         showDetails: false
 
@@ -12,8 +12,8 @@ export default [
     {
         id: "1H20uNh20e_rO5vaTAaLvJ4O7eEcYfWjn",
         image: "https://drive.google.com/uc?export=view&id=1H20uNh20e_rO5vaTAaLvJ4O7eEcYfWjn",
-        title: "E-Commerce",
-        description: "E-Commerce is a dummy web app that allows users to view different kinds of wears.",
+        title: "Crowns",
+        description: "Crowns is a dummy web app that allows users to view different kinds of wears.",
         link: "https://dansiecrown.netlify.app/",
         showDetails: false
 
