@@ -1,0 +1,14 @@
+.projs {
+    width: 40%;
+    margin: auto;
+    text-align: left;
+}
+
+.projs .contain {
+    display: flex;
+}
+
+.projs .contain img {
+    width: 50px;
+    margin: auto;
+}

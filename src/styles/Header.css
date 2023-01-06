@@ -1,0 +1,43 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+nav div{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0;
+}
+
+nav h2{
+    font-family: 'Water Brush', cursive;
+}
+
+nav div i {
+    color: black;
+    margin-right: 1em;
+    font-size: medium;
+}
+
+.menu{
+    position: fixed;
+    left: 50%;
+    
+    top: 0;
+    left: auto;
+    background-color: black;
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-sizing: border-box;
+    z-index: 10;
+}
+
+.menu a{
+    padding: 0.5em 2em;
+    text-decoration: none;
+    color: white;
+  
+}
