@@ -4,6 +4,7 @@ body {
   font-family: 'Red Hat Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #555;
 }
 
 code {

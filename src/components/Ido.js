@@ -91,7 +91,7 @@ const Ido = () => {
             </div>
 
 
-            <hr />
+            <hr className='bottom-hr' />
 
         </div>
     )

@@ -1,112 +1,117 @@
-
 .top {
     display: flex;
     justify-content: space-between;
-   
     position: relative;
     width: 90%;
     margin: auto;
     padding-top: 50px;
-    
+    padding-bottom: 50px;
+    background-position: center;
+    background-size: cover;
 }
 
-.top-left{
-   
+.top-left {
     width: 60%;
-
 }
 
-.top-right{
-    
+.top-right {
     width: 40%;
     margin: auto 0;
     text-align: right;
-    
 }
 
 
 .top-left p {
     padding: 1em 0px;
-    font-weight: 200;
-    font-size: medium;
+    font-weight: 400;
+    font-size: 1em;
     line-height: 25px;
 }
 
-.top-icons{
+.top-icons {
     display: flex;
-    
     gap: 20px;
     font-size: 25px;
     margin-top: 20px;
 }
 
-.top-icons a{
+.top-icons a {
     text-decoration: none;
     color: black;
 }
 
-.top-icons a:hover{
+.top-icons a:hover {
     color: orange;
 }
 
-.top-icons span{
+.top-icons span {
     font-size: 15px;
     padding-top: 10px;
-    
 }
 
-.top-left button{
+.top-left button {
     width: 40%;
     margin: 30px 0px;
     padding: 1em;
     border: 1px solid black;
 }
 
-.top-left button i{
-    margin-left:15px;
+.top-left button i {
+    margin-left: 15px;
 }
 
-.top-left button:hover{
+.top-left button:hover {
     background-color: black;
     color: white;
-    
-
 }
 
-.top-right img{
+.top-right img {
     width: 80%;
     border-radius: 0px 40% 40% 40%;
     padding: 0.5em;
     border: 1px solid orange;
-
 }
 
 
+.Greeting {
+    font-size: 2em;
+    font-weight: 700;
+    color: orange;
+    margin-bottom: 0;
+}
+
+.Greeting mark {
+    background-color: transparent;
+    color: rgb(63, 63, 63);
+    display: block;
+}
+
 @media screen and (max-width: 900px) {
 
-    .top{
+    .top {
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
     }
 
-    .top-left{
-   
+    .top-left {
         width: 100%;
-    
     }
-    
-    .top-right{
-        
+
+    .top-right {
         width: 50%;
         margin: auto;
         text-align: right;
-        
     }
 
-    .top-icons{
-        
-        justify-content:center;
-        
+    .top-icons {
+        justify-content: center;
+    }
+
+    .top-left p {
+        padding: 1em 1.5em;
+        font-weight: 400;
+        font-size: 1em;
+        line-height: 25px;
     }
 }

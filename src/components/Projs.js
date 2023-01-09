@@ -13,20 +13,20 @@ import projData from '../proj-data'
 
 
 export default function Projs() {
-    const [projects, setProjects] = useState(projData)
+    const [projects, setProjects] = useState(projData);
     // const [showDetails, setShowDetails] = useState(false)
 
     const displayDetails = (index) => {
         const newProjects = [...projects];
         newProjects[index].showDetails = true;
         setProjects(newProjects);
-    }
+    };
 
     const hideDetails = (index) => {
         const newProjects = [...projects];
         newProjects[index].showDetails = false;
         setProjects(newProjects);
-    }
+    };
 
     const proj = projects.map((proj, index) => {
         return (
@@ -38,23 +38,22 @@ export default function Projs() {
                 onMouseLeave={() => { hideDetails(index) }}
             >
                 {proj.showDetails === true ? <div className="overlay" key={proj.id}>
-                    <h4>{proj.title}</h4>
-                    <p>{proj.description}</p>
-                    <a href={proj.link} target='_blank' rel="noreferrer">View Project</a>
+                    <div className="overlay-container">
+                        <h4>{proj.title}</h4>
+                        <p>{proj.description}</p>
+                        <a href={proj.link} target='_blank' rel="noreferrer">View Project &#127757;</a>
+                    </div>
                 </div> : null}
 
             </div>
-        )
-    })
-
-
-
+        );
+    });
 
     return (
         <div className="projs" id='project'>
 
             <h1>Projects</h1>
-            <p>Here are some projects I have been privileged to work on. My experience however, is not limited to what I have here as I have contributed to several different projecs.</p>
+            <p className="projs-text">Here are some projects I have been privileged to work on. My experience however, is not limited to what I have here as I have contributed to several different projects.</p>
 
             <div className="proj-container">
                 {proj}

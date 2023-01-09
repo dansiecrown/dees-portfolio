@@ -5,7 +5,7 @@ export default [
         image: "https://drive.google.com/uc?export=view&id=1nxZqF6iXxL89w5omr96H8cvy7ZFaVBRT",
         title: "Dee-Calc",
         description: "Dee-Calc is a web app that allows users to perform basic arithmetic operations.",
-        link: "https://dansiecrown.github.io/js-calc/",
+        link: "https://dee-calc.vercel.app/",
         showDetails: false
 
     },
