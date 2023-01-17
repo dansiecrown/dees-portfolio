@@ -4,7 +4,7 @@ import '../styles/Main.css'
 
 const Main = () => {
     return (
-        <section className="top" id="main" style={{ backgroundImage: `url(https://drive.google.com/uc?export=view&id=1Qagq5kXC3IbNwIGU7NaFc5rRmLcWyZU2)` }}>
+        <section className="top" id="main" >
             <div className="top-left">
                 <h2 className="Greeting"><mark>Hello there 👋,</mark> I'm Daniel Omoregbe.</h2>
                 <p>A frontend engineer who is currently on the path to becoming a fullstack, I am comfortable with using
