@@ -43,7 +43,30 @@ export default [
         description: "Huddle is a static web page implementing the design of a landing page.",
         link: "https://dansiecrown.github.io/huddle/",
         showDetails: false
-
+    },
+    {
+        id: "1ZrePT6ZTQG1o8ipgjpKjzO-iaez5uPah",
+        image: "https://drive.google.com/uc?export=view&id=1ZrePT6ZTQG1o8ipgjpKjzO-iaez5uPah",
+        title: "Image Editor",
+        description: "Image Editor is a web app that allows users to edit images.",
+        link: "https://dansiecrown.github.io/image-editor",
+        showDetails: false
+    },
+    {
+        id: "14C8vwofZJOsb_z9NkG61Ujl0WFcVHUU1",
+        image: "https://drive.google.com/uc?export=view&id=14C8vwofZJOsb_z9NkG61Ujl0WFcVHUU1",
+        title: "Meta BnB",
+        description: "A website for the Meta BnB app; shows you the various packages.",
+        link: "https://metabnb-lac.vercel.app/",
+        showDetails: false
+    },
+    {
+        id: "1jfyB5iZpiP_uqhh01iDRSxOyhFn0chNQ",
+        image: "https://drive.google.com/uc?export=view&id=1jfyB5iZpiP_uqhh01iDRSxOyhFn0chNQ",
+        title: "Phonie App",
+        description: "Check your Nigerian network provider by entering your phone Number.",
+        link: "https://dansiecrown.github.io/phonie-app",
+        showDetails: false
     }
 
 ]
